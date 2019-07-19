@@ -12,7 +12,7 @@ class Image
 		end
 	end
 end
-
+# Image input
 image = Image.new([
 	[1, 1, 0, 1],
 	[0, 1, 0, 1],
@@ -20,4 +20,5 @@ image = Image.new([
 	[0, 1, 0, 1]
 ])
 
+# Call statement
 image.output_image
