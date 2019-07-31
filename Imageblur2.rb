@@ -19,8 +19,8 @@ class Image
   def value_in_cords(y,x)
   	row = @array[y]
   	return nil if row.nil?
-		
-		row[x]
+
+  	row[x]
 	end
 
   # Locate 1's and push to array
