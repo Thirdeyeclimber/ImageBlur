@@ -17,9 +17,9 @@ class Image
 
   # Locate 1's
   def value_in_cords(y,x)
-		row = @array[y]
-		return nil if row.nil?
-			
+  	row = @array[y]
+  	return nil if row.nil?
+		
 		row[x]
 	end
 
