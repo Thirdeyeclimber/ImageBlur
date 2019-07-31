@@ -12,7 +12,8 @@ class Image
 		end
 	end
 end
-# Image input
+# -----------------------------------------
+# Image input 2d array
 image = Image.new([
 	[1, 1, 0, 1],
 	[0, 1, 0, 1],
